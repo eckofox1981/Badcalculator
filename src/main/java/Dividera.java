@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Dividera {
 
-    public static void main(String[] args) {
+    public static void divide() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Ange första talet: ");

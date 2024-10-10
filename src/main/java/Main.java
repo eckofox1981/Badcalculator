@@ -18,7 +18,7 @@ public class Main {
                 case 1 -> add();
                 case 2 -> substract();
                 case 3 -> multiply();
-                case 4 -> divide();
+                case 4 -> Dividera.divide();
                 case 5 -> running = false;
             }
         }
