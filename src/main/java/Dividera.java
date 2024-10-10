@@ -14,6 +14,5 @@ public class Dividera {
         double resultat = tal1 / tal2;
         System.out.println("Resultatet är: " + resultat);
 
-        scanner.close();
     }
 }

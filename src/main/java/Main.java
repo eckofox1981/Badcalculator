@@ -11,13 +11,14 @@ public class Main {
                         Välj funktion:
                         1. addera
                         2. substrahera
-                        3. nultiplicera
+                        3. multiplicera
                         4. dividera
                         5. avsluta
                         """);
             int choice = scanner.nextInt();
             switch (choice){
-                //case 1: add();
+                case 1: Addera.addition();
+                break;
                 case 2: Subtract.subtract();
                 break;
                 case 3: TimFunction.multiply();
