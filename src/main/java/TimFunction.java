@@ -1,5 +1,6 @@
 public class TimFunction {
-    public void multiply{
+
+    public static void multiply() {
         System.out.println("Tim's function says hi");
     }
 }

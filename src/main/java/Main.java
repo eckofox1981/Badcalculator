@@ -18,7 +18,7 @@ public class Main {
             switch (choice){
                 case 1 -> add();
                 case 2 -> substract();
-                case 3 -> multiply();
+                case 3 -> TimFunction.multiply();
                 case 4 -> Dividera.divide();
                 case 5 -> running = false;
             }
