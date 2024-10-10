@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("""Välj funktion:\r
+        System.out.println("""
+                        Välj funktion:
                         1. addera
                         2. substrahera
                         3. substrahera
