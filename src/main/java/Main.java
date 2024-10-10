@@ -8,8 +8,8 @@ public class Main {
                         Välj funktion:
                         1. addera
                         2. substrahera
-                        3. substrahera
-                        4.dividera
+                        3. nultiplicera
+                        4. dividera
                         5. avsluta
                         """);
         int choice = scanner.nextInt();
@@ -17,7 +17,7 @@ public class Main {
         while (running) {
             switch (choice){
                 case 1 -> add();
-                case 2 -> substract();
+                case 2 -> Subtract.subtract();
                 case 3 -> TimFunction.multiply();
                 case 4 -> Dividera.divide();
                 case 5 -> running = false;

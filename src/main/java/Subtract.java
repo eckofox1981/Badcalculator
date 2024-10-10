@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Subtract {
 
-    public  void subtract(){
+
+    public static void subtract(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("first number:");
         int first = scanner.nextInt();
